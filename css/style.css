@@ -90,9 +90,15 @@ main{
 /* fine esempio con il calc */
 
 
-
-
-
-
 /* /main */
 
+
+
+/* footer */
+footer{
+    background-color: #8801fe;
+    height: 60px; /*questa altezza verrà eliminata successivamente */
+    margin-top: 10px;
+}
+
+/* /footer */
