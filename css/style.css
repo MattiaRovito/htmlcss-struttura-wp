@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* body */
+body{
+    background-color: white;
+    padding: 20px 60px;
+}
+/* /body */
+
+
+/* header */
+header{
+    background-color: #e579e6;
+    height: 100px; /*questa altezza verrà eliminata successivamente */
+} 
+/* /header */
