@@ -23,7 +23,7 @@ header{
 
 
 /* main */
-container::after{
+.container::after{
     content: '';
     display: table;
     clear: both;
@@ -31,7 +31,7 @@ container::after{
 }
 
 main{
-    border: 2px solid black;    
+    border: 2px solid black; /* questo border verrà eliminato successivamente */   
 
 }
 
@@ -43,11 +43,40 @@ main{
     margin-bottom: 30px;
 }
 
-.main-bottom{
+.clearfix{
     background-color: #0087fd;
     height: 600px; /*questa altezza verrà eliminata successivamente */
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+.leadership{
+    height: 80px; /* questa altezza verrà eliminata successivamente */
+    background-color: #abcfe7;
+    margin-bottom: 30px;
+}
+
+.link{
+    float: left;
+    height: 500px; /* questa altezza verrà eliminata successivamente */
+    width: 25%;
+    background-color: #abcfe7;
+    margin-bottom: 30px;
+}
+
+.main-contents{
+    float: left;
+    height: 500px; /* questa altezza verrà eliminata successivamente */
+    width: 50%;
+    background-color:  #abcfe7;
+    margin-bottom: 30px;
+}
 
 
 
