@@ -23,18 +23,30 @@ header{
 
 
 /* main */
-main::after{
+container::after{
     content: '';
     display: table;
     clear: both;
+    
 }
+
+main{
+    border: 2px solid black;    
+
+}
+
+
 
 .main-top{
     background-color: #e1d67a;
-    height: 400px; /*questa altezza verrà eliminata successivamente */
+     height: 400px; /* questa altezza verrà eliminata successivamente */
+    margin-bottom: 30px;
 }
 
-
+.main-bottom{
+    background-color: #0087fd;
+    height: 600px; /*questa altezza verrà eliminata successivamente */
+}
 
 
 
