@@ -31,7 +31,7 @@ header{
 }
 
 main{
-    border: 2px solid black; /* questo border verrà eliminato successivamente */   
+    /* border: 2px solid black; questo border verrà eliminato successivamente    */
 
 }
 
@@ -64,19 +64,33 @@ main{
 
 .link{
     float: left;
-    height: 500px; /* questa altezza verrà eliminata successivamente */
-    width: 25%;
+    height: 470px; /* questa altezza verrà eliminata successivamente */
+    width: 15%;
     background-color: #abcfe7;
-    margin-bottom: 30px;
+    
 }
 
+/* esempio con margini in %
 .main-contents{
     float: left;
-    height: 500px; /* questa altezza verrà eliminata successivamente */
-    width: 50%;
+    height: 470px;  questa altezza verrà eliminata successivamente 
+    width: 68%;
+    margin: 0px 1%;
     background-color:  #abcfe7;
-    margin-bottom: 30px;
+} */
+
+/* esempio con il calc */
+.main-contents{
+    float: left;
+    height: 470px; /* questa altezza verrà eliminata successivamente */
+    width: calc(70% - 30px);
+    margin: 0px 15px;
+    background-color:  #abcfe7;
 }
+/* fine esempio con il calc */
+
+
+
 
 
 
