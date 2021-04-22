@@ -7,7 +7,7 @@
 /* body */
 body{
     background-color: white;
-    padding: 20px 60px;
+    padding: 20px 80px;
 }
 /* /body */
 
@@ -16,5 +16,28 @@ body{
 header{
     background-color: #e579e6;
     height: 100px; /*questa altezza verrà eliminata successivamente */
+    margin-bottom: 30px;
 } 
 /* /header */
+
+
+
+/* main */
+main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.main-top{
+    background-color: #e1d67a;
+    height: 400px; /*questa altezza verrà eliminata successivamente */
+}
+
+
+
+
+
+
+/* /main */
+
